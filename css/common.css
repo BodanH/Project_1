@@ -1,0 +1,61 @@
+.title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.2;
+    color: #EEEEEE;
+}
+.title span{
+    color: #00ADB5;
+}
+.button,.button_dark{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #EEEEEE;
+    padding: 10px 32px;
+    background-color: #00ADB5;
+    border-radius: 24px;
+    transition: background-color 0.1s ease 0s;
+}
+.button:hover{
+    background-color: rgba(57, 62, 70, 0.75);
+    backdrop-filter: blur(2px);
+    border-radius: 24px;
+}
+.button_dark{
+    background-color: rgba(57, 62, 70, 0.75);
+}
+.button_dark:hover, .button_dark.active:hover{
+    background-color: #00ADB5;
+}
+.button_dark.active{
+    background-color: #00ADB5;
+}
+.sosial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.social__item {
+    background-color: #393E46;
+    border-radius: 50%;
+    flex: 0 0 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color  0.3s ease 0s;
+}
+.social__link {
+}
+.social__item:hover{
+    background-color: #454b54;
+}
